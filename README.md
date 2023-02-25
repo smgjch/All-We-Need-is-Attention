@@ -30,8 +30,10 @@ https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
 
 # Attention Evaluation
 For picture:
+
 python src/main.py
 
 For video:
+
 python src/FrameSlicer/main.py
 python src/main.py
