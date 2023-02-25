@@ -1,16 +1,31 @@
 # It-s-partial-about-attention
+Trian the tensorflow model with customized dataset by replace the code in ./src/tensorflowModel/tensorflowTraining.py line 6
+
+or
+
+Use API provided by AWS:
+
 
 Install Boto3
 Install the latest Boto3 release via pip:
 
-pip install boto3
-If your project requires a specific version of Boto3, or has compatibility concerns with certain versions, you may provide constraints when installing:
 
-# Install Boto3 version 1.0 specifically
-pip install boto3==1.0.0
+Install the latest OpenCV release via pip:
+pip install opencv-contrib-python
 
-# Make sure Boto3 is no older than version 1.15.0
-pip install boto3>=1.15.0
 
-# Avoid versions of Boto3 newer than version 1.15.3
-pip install boto3<=1.15.3
+Set up the AWS CLI and AWS SDKs through:
+https://docs.aws.amazon.com/rekognition/latest/dg/getting-started.html
+
+
+Set up authentication credentials for your AWS account using either the IAM Console or the AWS CLI:
+https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html
+
+
+
+For picture:
+python src/main.py
+
+For video:
+python src/FrameSlicer/main.py
+python src/main.py
