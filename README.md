@@ -44,3 +44,9 @@ For video:
 
 python src/FrameSlicer/main.py
 python src/main.py
+
+
+For demo web app:
+
+npm start
+
