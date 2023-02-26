@@ -13,4 +13,4 @@ def main(path):
 
 
 
-main("./data/testSmile.jpg")
+main("./data/eyeClosed.jpg")
